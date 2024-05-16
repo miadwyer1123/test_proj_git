@@ -9,4 +9,7 @@ data = {
 }
 
 df = pd.Dataframe(data)
+
+# add a new column 'country'
+df['country'] = ['USA', 'USA', 'USA']
 print(df)
